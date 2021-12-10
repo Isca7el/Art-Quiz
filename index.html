@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="main">
+            <div class="main-wrapper">
+                <h1 class="visually-hidden">Art Quiz</h1>
+                <div class="container">
+                    <div class=" main__menu">
+                        <div class="main__logo"></div>
+                        <button class="button settings--button"></button>
+                        <button class="button main__artist--button">Artist quiz</button>
+                        <button class="button main__picture--button">Pictue quiz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hide categories">
+            <div class="categories__wrapper">
+                <div class="container">
+                    <div class="categories__header">
+                        <div class="categories__logo"></div>
+                        <div class="categories__header--home">
+                            <button class="categories__home--button"></button>
+                            <h3 class="categories__text">Home</h3>
+                        </div>
+                        <div class="categories__header--settings">
+                            <button type="button" class="categories__settings--button"></button>
+                            <h3 class="categories__text">Settings</h3>
+                        </div>
+                    </div>
+                    <h2 class="categories__title">Categories</h2>
+                    <div class="categories__cart">
+                        <section class="categories__cart--item portrait">
+                            <div class="categories__cart--inner">
+                                <span class="categories__cart__name">Portrait</span>
+                                <span class="categories__cart__score"></span>
+                            </div>
+                            <div class="categories__cart__image"></div>
+                        </section>
+                        <section class="categories__cart--item landscape">
+                            <div class="categories__cart--inner">
+                                <span class="categories__cart__name">Landscape</span>
+                                <span class="categories__cart__score"></span>
+                            </div>
+                            <div class="categories__cart__image"></div>
+                        </section>
+                        <section class="categories__cart--item still_life">
+                            <div class="categories__cart--inner">
+                                <span class="categories__cart__name">Still life</span>
+                                <span class="categories__cart__score"></span>
+                            </div>
+                            <div class="categories__cart__image"></div>
+                        </section>
+                        <section class="categories__cart--item graphic">
+                            <div class="categories__cart--inner">
+                                <span class="categories__cart__name">Graphic</span>
+                                <span class="categories__cart__score"></span>
+                                <div class="categories__cart--score">Score</div>
+                            </div>
+                            <div class="categories__cart__image"></div>
+                        </section>
+                        <section class="categories__cart--item antique">
+                            <div class="categories__cart--inner">
+                                <span class="categories__cart__name">Antique</span>
+                                <span class="categories__cart__score"></span>
+                            </div>
+                            <div class="categories__cart__image"></div>
+                        </section>
+                        <section class="categories__cart--item avant_garde">
+                            <div class="categories__cart--inner">
+                                <span class="categories__cart__name">Avant-Garde</span>
+                                <span class="categories__cart__score"></span>
+                            </div>
+                            <div class="categories__cart__image"></div>
+                        </section>
+                        <section class="categories__cart--item renaisance">
+                            <div class="categories__cart--inner">
+                                <span class="categories__cart__name">Renaisance</span>
+                                <span class="categories__cart__score"></span>
+                            </div>
+                            <div class="categories__cart__image"></div>
+                        </section>
+                        <section class="categories__cart--item surrealism">
+                            <div class="categories__cart--inner">
+                                <span class="categories__cart__name">Surrealism</span>
+                                <span class="categories__cart__score"></span>
+                            </div>
+                            <div class="categories__cart__image"></div>
+                        </section>
+                        <section class="categories__cart--item kitsch">
+                            <div class="categories__cart--inner">
+                                <span class="categories__cart__name">Kitsch</span>
+                                <span class="categories__cart__score"></span>
+                            </div>
+                            <div class="categories__cart__image"></div>
+                        </section>
+                        <section class="categories__cart--item minimalism">
+                            <div class="categories__cart--inner">
+                                <span class="categories__cart__name">Minimalism</span>
+                                <span class="categories__cart__score"></span>
+                            </div>
+                            <div class="categories__cart__image"></div>
+                        </section>
+                        <section class="categories__cart--item avangard">
+                            <div class="categories__cart--inner">
+                                <span class="categories__cart__name">Avangard</span>
+                                <span class="categories__cart__score"></span>
+                            </div>
+                            <div class="categories__cart__image"></div>
+                        </section>
+                        <section class="categories__cart--item industrial">
+                            <div class="categories__cart--inner">
+                                <span class="categories__cart__name">Industrial</span>
+                                <span class="categories__cart__score"></span>
+                            </div>
+                            <div class="categories__cart__image"></div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hide settings">
+            <div class="settings__wrapper">
+                <div class=cointainer>
+                    <div class="settings__inner">
+                        <h2 class="settings__title">Settings</h2>
+                        <div class="settings__volume">
+                            <h3 class="setting__volume--text">Volume</h3>
+                            <div class="settings__volume--range">
+                                <div class="settings__volume--progress"></div>
+                            </div>
+                            <div class="settings__volume--inner">
+                                <button class="settings__volume--mute"></button>
+                                <button class="settings__volume--audio"></button>
+                            </div>
+                        </div>
+                        <div class="settings__game">
+                            <h3 class="settings__game-title">Time game</h3>
+                            <span class="settings__game--indicator"></span>
+                            <label class="settings__game--switch">
+                                <input type="checkbox" class="settings__game--check">
+                                <span class="settings__game--slider round"></span>
+                            </label>
+                        </div>
+                        <div class="settings__answer">
+                            <h3 class="settings__answer--title">Time to answer</h3>
+                            <div class="settings__options">
+                                <button class="settings__button--minus" type="button"></button>
+                                <input class="settings__input" type="number" value="15">
+                                <button class="settings__button--plus" type="button"></button>
+                            </div>
+                        </div>
+                        <div class="settings__adds">
+                            <button class="settings__button--default">Default</button>
+                            <button class="settings__button--save">Save</button>
+                        </div>
+                    </div>
+                    <button class="settings__button--back"></button>
+                </div>
+            </div>
+        </div>
+        <div class="hide pictures">
+            <div class="pictures__wrapper">
+                <div class="container">
+                    <div class="pictures__header">
+                        <button class="pictures__header--close"></button>
+                        <span class="pictures__header--timer"></span>
+                    </div>
+                    <h2 class="pictures__header--question">Назовите автора данной картины?</h2>
+                    <div class="pictures__answers">
+                        <div class="pictures__answers--item">
+                            <span class="visually-hidden pictures__answers--indicator"></span>
+                        </div>
+                        <div class="pictures__answers--item">
+                            <span class="visually-hidden pictures__answers--indicator"></span>
+                        </div>
+                        <div class="pictures__answers--item">
+                            <span class="visually-hidden pictures__answers--indicator"></span>
+                        </div>
+                        <div class="pictures__answers--item">
+                            <span class="visually-hidden pictures__answers--indicator"></span>
+                        </div>
+                    </div>
+                    <div class="pictures__answers--dots">
+                        <span class="pictures__answers--dot"></span>
+                        <span class="pictures__answers--dot"></span>
+                        <span class="pictures__answers--dot"></span>
+                        <span class="pictures__answers--dot"></span>
+                        <span class="pictures__answers--dot"></span>
+                        <span class="pictures__answers--dot"></span>
+                        <span class="pictures__answers--dot"></span>
+                        <span class="pictures__answers--dot"></span>
+                        <span class="pictures__answers--dot"></span>
+                        <span class="pictures__answers--dot"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hide artists">
+            <div class="artists__wraper">
+                <div class="container">
+                    <div class="artists__header">
+                        <button class="artists__header--close"></button>
+                        <span class="artists__header--timer"></span>
+                    </div>
+                    <h2 class="artists__header--question">Назовите автора данной картины?</h2>
+                    <div class="artists__image"></div>
+                    <div class="artists__answers">
+                        <div class="artists__answers--item"></div>
+                        <div class="artists__answers--item"></div>
+                        <div class="artists__answers--item"></div>
+                        <div class="artists__answers--item"></div>
+                    </div>
+                    <div class="artists__answers--dots">
+                        <span class="artists__answers--dot"></span>
+                        <span class="artists__answers--dot"></span>
+                        <span class="artists__answers--dot"></span>
+                        <span class="artists__answers--dot"></span>
+                        <span class="artists__answers--dot"></span>
+                        <span class="artists__answers--dot"></span>
+                        <span class="artists__answers--dot"></span>
+                        <span class="artists__answers--dot"></span>
+                        <span class="artists__answers--dot"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <a class="footer__logo" href="https://rs.school/js/"></a>
+            <a class="footer__gihub" href="https://github.com/Isca7el">Gleb Demichshuk</a>
+            <div class="footer__text">© 2021</div>
+        </div>
+    </footer>
+    <div class="hide exit">
+        <div class="exit__wrapper">
+            <button class="exit__button--close" type="button"></button>
+            <h2 class="exit__tittle">Вы действительно хотите покинуть игру?</h2>
+            <button class="exit__button--continue" type="button">Cancel</button>
+            <button class="exit__button--cancel" type="button">Yes</button>
+        </div>
+    </div>
+    <div class="hide answer">
+        <div class="answer__wrapper">
+            <div class="answwer__image"></div>
+            <span class="answwer__picture"></span>
+            <span class="answwer__text"></span>
+            <button class="answer__button" type="button">Next</button>
+            <div class="artists__indicator"></div>
+        </div>
+    </div>
+    <div class="hide endgame">
+        <div class="endgame__wrapper">
+            <div class="endgame__image"></div>
+            <h3 class="endgame__title">Congratulations!</h3>
+            <div class="endgame__text">
+                <span class="endgame__text--result"></span>
+                <span class="endgame__text--total">10</span>
+            </div>
+                <button class="endgame__continue">Home</button>
+        </div>
+    </div>
+    <div class="hide score">
+        <div class="score__wrapper">
+            <h2 class="score__title">Score</h2>
+            <div class="score__items">
+                <div class="score__item"></div>
+                <div class="score__item"></div>
+                <div class="score__item"></div>
+                <div class="score__item"></div>
+                <div class="score__item"></div>
+                <div class="score__item"></div>
+                <div class="score__item"></div>
+                <div class="score__item"></div>
+                <div class="score__item"></div>
+                <div class="score__item"></div>
+            </div>
+            <button class="score__button">Continue</button>
+        </div>
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
